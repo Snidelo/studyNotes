@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<!-- 连接一个css(外部样式) -->
+		<link rel="stylesheet" type="text/css" href="cssbase.css">
+
+		<!-- 内嵌样式表 -->
+		<style type="text/css">
+			h5{color:red;text-align:center}
+		</style>
+        
+        	<h1>
+        		this is a head-1
+        	</h1>
+        	<h2>
+        		this is a head-2
+        	</h2>
+	
+		<h3 id="green">
+			this is a green head-3
+		</h3>
+
+		<!-- 行内样式 -->
+		<h4 style="color:blue;text-align:right;margin-right:30px">
+			this is inline style head-4
+		</h4>
+		<!-- 内嵌样式 -->
+		<h5>
+			this is inner style head-5
+		</h5>
+        
+	</head>
+	<body>
+		<p>
+			helloworld
+		</p>
+
+    		<p class="right">
+       			 right and green	
+   		</p><br>
+
+    		<p class="center">
+       			 center and red
+    		</p>
+	</body>
+</html>

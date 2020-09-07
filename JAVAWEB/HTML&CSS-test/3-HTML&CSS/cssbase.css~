@@ -1,0 +1,13 @@
+p{
+    text-align:right;
+    color:blue
+}
+h1,h2,h3{
+    color:orange
+}
+p.right{text-align:right;color:green}/*右对齐*/
+p.center{text-align:center;color:red}/*居中*/
+/*下面的可以在所有的标签中使用*/
+.left{text-align:left}/*左对齐*/
+
+#green{color:green}
